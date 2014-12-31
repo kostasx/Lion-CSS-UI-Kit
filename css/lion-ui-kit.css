@@ -132,6 +132,7 @@ button, .button {
 }
 input.search {
   border-radius: 100px;
+  outline: none;
 }
 
   /* "Round Textured" button style */
