@@ -545,6 +545,7 @@ input.search {
       text-align: center;
       vertical-align: middle;
       position: relative;
+      outline: none;
     }
 
 
