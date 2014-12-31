@@ -1,10 +1,10 @@
 /* Ville V. Vanninen / foolproof.me */
 @font-face{
   font-family: 'WebSymbolsRegular';
-  src: url(../'fonts/websymbols-regular-webfont.eot');
-  src: url(../'fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url(../'fonts/websymbols-regular-webfont.woff') format('woff'),
-       url(../'fonts/websymbols-regular-webfont.ttf') format('truetype');
+  src: url('../fonts/websymbols-regular-webfont.eot');
+  src: url('../fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/websymbols-regular-webfont.woff') format('woff'),
+       url('../fonts/websymbols-regular-webfont.ttf') format('truetype');
   }
 
 * {
