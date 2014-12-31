@@ -358,6 +358,9 @@ input.search {
     text-align: center;
     outline: none;
   }
+  select.scope.dropdown {
+    background-image: url(../img/dropdown-down.png);
+  }
   input.scope {
     font-size: 11px;
     border-radius: 0px;
