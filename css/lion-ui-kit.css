@@ -356,6 +356,7 @@ input.search {
     font-size: inherit;
     padding: 0 16px 0 8px;
     text-align: center;
+    outline: none;
   }
   input.scope {
     font-size: 11px;
