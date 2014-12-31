@@ -128,6 +128,7 @@ input[type=range] {
 /* Input element styles */
 button, .button {
   padding: 0 8px;
+  outline: none;
 }
 input.search {
   border-radius: 100px;
