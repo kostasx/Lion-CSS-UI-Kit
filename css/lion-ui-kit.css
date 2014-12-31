@@ -1,10 +1,10 @@
 /* Ville V. Vanninen / foolproof.me */
 @font-face{
   font-family: 'WebSymbolsRegular';
-  src: url('fonts/websymbols-regular-webfont.eot');
-  src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/websymbols-regular-webfont.woff') format('woff'),
-       url('fonts/websymbols-regular-webfont.ttf') format('truetype');
+  src: url(../'fonts/websymbols-regular-webfont.eot');
+  src: url(../'fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url(../'fonts/websymbols-regular-webfont.woff') format('woff'),
+       url(../'fonts/websymbols-regular-webfont.ttf') format('truetype');
   }
 
 * {
@@ -98,7 +98,7 @@ input[type=range] {
     padding: 0;
     margin: 0;
     -webkit-appearance: none;
-    background: url(img/disclosure-triangle.png) center center no-repeat;
+    background: url(../img/disclosure-triangle.png) center center no-repeat;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 0;
@@ -344,9 +344,9 @@ input.search {
     -webkit-appearance: none;
     border-radius: 100px;
     background-color: #ededed;
-    background: url(img/dropdown-updown.png) right center no-repeat, -webkit-linear-gradient(top, #f6f6f6, #e0e0e0);
-    background: url(img/dropdown-updown.png) right center no-repeat, -moz-linear-gradient(top, #f6f6f6, #e0e0e0);
-    background: url(img/dropdown-updown.png) right center no-repeat, linear-gradient(top, #f6f6f6, #e0e0e0);
+    background: url(../img/dropdown-updown.png) right center no-repeat, -webkit-linear-gradient(top, #f6f6f6, #e0e0e0);
+    background: url(../img/dropdown-updown.png) right center no-repeat, -moz-linear-gradient(top, #f6f6f6, #e0e0e0);
+    background: url(../img/dropdown-updown.png) right center no-repeat, linear-gradient(top, #f6f6f6, #e0e0e0);
     border: 1px solid rgba(0,0,0,.4);
     background-clip: border-box;
     box-shadow: 0px 1px 0px 0px rgba(255,255,255,.45);
@@ -551,9 +551,9 @@ input.search {
 .header {
   text-shadow: 0px 1px 0px rgba(255,255,255,.8);
   border-radius: 3px 3px 0 0;
-  background: -webkit-linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(noise-hard.png);
-  background: -moz-linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(noise-hard.png);
-  background: linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(noise-hard.png);
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(../img/noise-hard.png);
+  background: -moz-linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(../img/noise-hard.png);
+  background: linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(../img/noise-hard.png);
   box-shadow:
     inset 0px -1px 0px 0px rgba(255,255,255,.17);
   border-bottom: 1px solid #696969;
