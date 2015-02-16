@@ -604,13 +604,13 @@ input.search {
 
 div.scope {
   font-weight: bold;
-  background: -webkit-linear-gradient(bottom, #d9d9d9, #ededed);
-  background: -moz-linear-gradient(bottom, #d9d9d9, #ededed);
-  background: linear-gradient(bottom, #d9d9d9, #ededed);
   box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.51);
   border-bottom: 1px solid #bfbfbf;
   line-height: 16px;
   font-size: 12px;
+  background: -webkit-linear-gradient(bottom, #d9d9d9, #ededed);
+  background: -moz-linear-gradient(bottom, #d9d9d9, #ededed);
+  background: linear-gradient(bottom, #d9d9d9, #ededed);
   padding: 4px 8px;
   color: #737373;
 }
@@ -627,6 +627,57 @@ div.scope {
 .content {
   border-radius: 0 0 3px 3px;
   background: #ededed;
+  padding-bottom: 10px;
+}
+
+/* ADDITIONS */
+
+body {
+    background-color: #ededed;
+}
+
+.preferences {
+  margin: 20px 50px;
+  background: #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.2) inset;
+  display: none;
+}
+.preferences .push {
+  padding: 2px 10px;
+}
+.preferences .segmented {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.content {
+  min-height: 250px;
+  position: relative;
+}
+
+.dropper {
+  height: 150px;
+  width: 150px;
+  border: 8px dashed #ccc;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.dropper .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  color: #bbb;
 }
 
 /* 
@@ -706,4 +757,61 @@ nav.control-window a.maximize:active {
 }
 nav.control-window a.deactivate {
     background: #b5b5b5;
+}
+
+/* TABLE */
+
+.file_info_section {
+  border-bottom: 1px solid #bbb;
+  display: none;
+}
+
+table.file_info {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+
+table.file_info thead {
+  background: -webkit-linear-gradient(top, #fcfcfc, #fcfcfc 49%, #ededed 53%, #ededed);
+  border-bottom: 1px solid #bbb;
+}
+
+table.file_info th {
+  font-weight: normal;
+}
+
+table.file_info tbody tr:nth-child(even) td {
+  background-color: #F0F0F0;
+}
+
+table.file_info td {
+  background-color: #fefefe;
+  padding: 2px 0;
+  color: #444;
+  font-weight: normal;
+}
+
+.bottom {
+  text-shadow: 0px 1px 0px rgba(255,255,255,.8);
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(../img/noise-hard.png);
+  border-top: 1px solid #aaa;
+  height: 25px;
+  padding: 10px;
+}
+
+.bottom .again,
+.bottom .push {
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 92%, .98), hsla(0, 0%, 71%, .95)), url(../img/noise-hard.png);
+  float: left;
+}
+
+.bottom .again {
+  float: right;
+}
+
+.bottom .drag_notice {
+  float: left;
+  padding-left: 10px;
 }
